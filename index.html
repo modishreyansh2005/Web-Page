@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="">
+            <div class="details">
+
+
+                <div class="input-field">
+                    <label>First Name:</label>
+                    <input id="fn" type="text" placeholder="First Name" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Last Name:</label>
+                    <input id="ln" type="text" placeholder="Last Name">
+                </div>
+
+                <div class="input-field">
+                    <label>Email Id:</label>
+                    <input id="el" type="email" placeholder="Enter your email id" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Mobile Number:</label>
+                    <input id="mn" type="text" placeholder="Enter Your Mobile Number" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="Male" required>Male
+                    <input type="radio" name="gender" value="Female" required>Female
+                </div>
+
+                <div class="input-field">
+                    <label>Date Of Birth:</label>
+                    <input id="bdy" type="date" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Age:</label>
+                    <input id="age" type="number" placeholder="Enter Your Age">
+                </div>
+
+                <div class="input-field">
+                    <label>City:</label>
+                    <select id="city">
+                        <option>--Select--</option>
+                        <option>Ahmedabad</option>
+                        <option>Gandhinagar</option>
+                        <option>Kalol</option>
+                        <option>Mehsana</option>
+                        <option>Surat</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>Hobbies:</label>
+                    <input type="checkbox" value="Cricket">Cricket
+                    <input type="checkbox" value="Volleyball">Volleyball
+                    <input type="checkbox" value="Singing">Singing
+                    <input type="checkbox" value="Dancing">Dancing
+                </div>
+
+                <div class="input-field">
+                    <label>File:</label>
+                    <input type="file" placeholder="Enter Your Documents" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Address:</label>
+                    <textarea id="add" rows="5" cols="35"></textarea>
+                </div>
+
+                <div class="btn1 ">
+                    <button type="reset">Reset</button>
+                </div>
+
+                <div class="btn2">
+                    <button onclick="displayFormData()">Save</button>
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+    <table id="dataTable" border="">
+        <tr>
+            <th>First Name:</th>
+            <th>Last Name:</th>
+            <th>Email Id:</th>
+            <th>Mobile Number:</th>
+            <th>Address:</th>
+            <th>Age:</th>
+            <th>Date Of Birth:</th>
+            <th>City:</th>
+            <th>Hobbies:</th>
+        </tr>
+    </table>
+    <script src="App.js"></script>
+</body>
+
+</html>

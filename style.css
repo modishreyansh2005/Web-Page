@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: lightblue;
+}
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 50px;
+    background-color: aliceblue;
+    margin-left:430px;
+}
+.container .header{
+    font-size:  20px;
+    font-weight: 600;
+    color: #333;
+}
+.container .form{
+    position: 20px;
+    margin-top: 15px;
+    min-height: 500px;
+    background-color: aliceblue;
+}
+
+.container .form  .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+}
+
+.container .details{
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.details .input-field{
+    height: 50px;
+    margin: 10px;
+    padding: auto;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 5px; 
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100;
+     background-color: darkcyan;
+    margin-top: 100px;
+    width: 100px;
+}
+button{
+    background-color: darkcyan;
+    border:none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+ 
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100;
+    background-color: darkcyan;
+
+    margin-top: 100px;
+    width: 100px;    
+    margin-left: 250px;
+    margin-top: -40px;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td, th{
+    border: 1px soild #dddddd
+}
+textarea{
+    resize: none;
+}
